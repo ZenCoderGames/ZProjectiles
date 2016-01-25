@@ -1,13 +1,3 @@
-# ZEventTree-ZTween
-An extendable event tree meant to make sequences and parallel events easier to do in Unity. Works with ZTween.
+This is a bunch of a code to let you create quadratic bezier splines and set up a projectile that moves along that curve.
 
-There are two main folders in the Scripts folder :
-
-ZEvent
-- All code related to event trees, event nodes...
-
-ZTween
-- All code related to tweening, easing...
-
-
-There is also a Tests folder which has a test script to show you how each of these systems work.
+The projectiles can specify start and end points and the spline will readjust to match it.
